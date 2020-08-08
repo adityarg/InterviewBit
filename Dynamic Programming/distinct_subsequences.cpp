@@ -1,3 +1,4 @@
+// https://www.geeksforgeeks.org/count-distinct-occurrences-as-a-subsequence/
 int Solution::numDistinct(string A, string B)
 {
     if(A.size()<B.size()) return 0;
